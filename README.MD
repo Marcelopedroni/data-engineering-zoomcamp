@@ -1,3 +1,13 @@
+<h1>This is a Data Engineering Project.
+
+<p>The main purpose is to study and improve the knowledge on DE by building a data pipeline with a complete infrastructure based on cloud (GCP).
+The upcoming contents will be feeding this repo until the project is done (something around 7~10 weeks).</p>
+
+IMPORTANT:
+### This is part of a free bootcamp, self-called Data Engineering Zoomcamp 2023, made available by [@DataTalksClub](https://github.com/DataTalksClub/data-engineering-zoomcamp/)(for whom I am very very gratefull).
+
+### CONTENTS ###
+
 ### Week 1: Introduction & Prerequisites
 
 * Introduction to GCP resources (Storage, BigQuery, VM instances, Billing)
@@ -18,4 +28,3 @@
 * *SQL*: Data Analysis & Exploration
 
 ### More coming soon!
-### This is part of a free bootcamp, self-called Data Engineering Zoomcamp 2023, made available by [@DataTalksClub](https://github.com/DataTalksClub/data-engineering-zoomcamp/)
