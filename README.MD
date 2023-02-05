@@ -1,4 +1,4 @@
-### [Week 1: Introduction & Prerequisites]
+### Week 1: Introduction & Prerequisites
 
 * Introduction to GCP resources (Storage, BigQuery, VM instances, Billing)
   *Creating Project, VM instance (ssh config connection to access remotely), activating API's, etc*
