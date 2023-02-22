@@ -141,8 +141,8 @@ docker run -it \
   -e POSTGRES_PASSWORD="root" \
   -e POSTGRES_DB="ny_taxi" \
   -v $(pwd)/data-engineering-zoomcamp/week_1_basics_n_setup/2_docker_sql/ny_taxi_postgres_data:/var/lib/postgresql/data \
-  -p 5432:5432 \
-  --network=pgnetwork \
+  -p 5431:5432 \
+  --network=2_docker_sql_default \
   --name pgdatabase \
   postgres:13
 ```
