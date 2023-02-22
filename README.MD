@@ -21,10 +21,25 @@ This is part of a free bootcamp, self-called Data Engineering Zoomcamp 2023, mad
 
 ### Applied Technologies
 * *Google Cloud Platform (GCP)*: Cloud-based auto-scaling platform by Google
-  * *Google Cloud Storage (GCS)*: Data Lake
+  * *Google Cloud Storage (GCS)*
   * *BigQuery*: Data Warehouse
 * *Terraform*: Infrastructure-as-Code (IaC)
 * *Docker*: Containerization
 * *SQL*: Data Analysis & Exploration
+
+### Week 2: Introduction to Prefect concepts
+
+* Prefect flow
+* Creating an ETL
+* Prefect task
+* Blocks and collections
+* Orion UI
+
+### Applied Technologies
+* *Google Cloud Platform (GCP)*: Cloud-based auto-scaling platform by Google
+  * *Google Cloud Storage (GCS)*: Object Storage
+  * *BigQuery*: Data Warehouse
+* *Docker*: Containerization
+* *Prefect*: Orchestrator of flows runs (similar to Airflow, Jenkins) - Free version (hosted locally or on Cloud)
 
 ### More coming soon!
