@@ -50,19 +50,22 @@ def etl_web_to_gcs(year: int, month: int, color: str) -> None:
   to_path = f"data/{color}/{dataset_file}.parquet"
 
   df = fetch(dataset_url)
-  df_clean = clean(df)
-  path = write_local(df_clean, color, dataset_file)
+  if color != "green":
+    df_clean = clean(df)
+    path = write_local(df_clean, color, dataset_file)
+  else:
+    path = write_local(df, color, dataset_file)
   write_gcs(path, to_path)
 
 @flow()
 def etl_parent_flow(
-  months: list[int] = [1,2,3,4,5,6,7,8,9,10,11,12], year: int = 2021, color: str = "yellow"
+  months: list[int] = [1,2,3,4,5,6,7,8,9,10,11,12], year: int = 2021, color: str = "green"
 ):
   for month in months:
     etl_web_to_gcs(year, month, color)
 
 if __name__ == "__main__":
   color = "yellow"
-  months = [1,2,3]
+  months = [7]
   year = 2021
   etl_parent_flow(months, year, color)
