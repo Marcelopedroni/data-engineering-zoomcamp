@@ -42,4 +42,19 @@ This is part of a free bootcamp, self-called Data Engineering Zoomcamp 2023, mad
 * *Docker*: Containerization
 * *Prefect*: Orchestrator of flows runs (similar to Airflow, Jenkins) - Free version (hosted locally or on Cloud)
 
+ cmd -> prefect deployment run etl-parent-flow/docker-flow -p "months=[1,2,3,4,5,6,7,8,9,10,11,12]"
+
+
+### Week 3: BigQuery and DataWarehouse solution
+
+* All discussions were about Google BigQuery for DataWarehouse solution and how to deploy a ML model created in it.
+* There were no codes to display, so there is just notes that i've been taken on my notebook. 
+
+### Applied Technologies
+* *Google Cloud Platform (GCP)*: Cloud-based auto-scaling platform by Google
+  * *Google Cloud Storage (GCS)*: Object Storage
+  * *BigQuery*: Data Warehouse and ML solution
+
+  
+
 ### More coming soon!
